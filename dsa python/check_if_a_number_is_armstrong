@@ -1,0 +1,21 @@
+num=19928
+n=num
+count=0
+while n>0:
+    count=count+1
+    n=n//10
+print (count)
+# another method 
+n=num
+length=len(str(n))
+print(length)
+total=0
+while n>0:
+    last=n%10
+    total=total+last**count
+    n=n//10
+print(total,"--total of this number")
+if total==num:
+    print("the number",num,"is an armstrong number")
+else:
+    print("the number",num,"is not an armstrong number")
