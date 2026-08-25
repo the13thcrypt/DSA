@@ -19,4 +19,5 @@ nums=[5,6,3,4,5,2,3,4,1]
 '''num.reverse()
 num[::-1]'''
 print(reversearr(nums,0,8))
+'''this is for conceptual only , no need to use this irl'''
 
