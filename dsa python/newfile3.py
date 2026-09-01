@@ -19,3 +19,4 @@ def reverse_sort(nums):
         nums[i],nums[min_index]=nums[min_index],nums[i]
 reverse_sort(nums)
 print(nums)
+this will later be deleted 
