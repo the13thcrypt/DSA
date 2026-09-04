@@ -9,3 +9,14 @@ def bubble_sort(num):
 bubble_sort(nums)
 print(nums)
             ##time complexity of bubble sort is O(n^2) in worst and average case, and O(n) in best case. The space complexity of bubble sort is O(1) because it only requires a constant amount of additional memory space for the temporary variable used for swapping. */
+# for best case
+def bubble_sortbest(num):
+    n=len(num)
+    is_swapped=False
+    for i in range(n-2,-1,-1):
+        for j in range(0,i+1):
+            if num[j]>num[j+1]:
+                num[j],num[j+1]=num[j+1],num[j]
+                is_swapped=True
+        if is_swapped==False:
+            return
